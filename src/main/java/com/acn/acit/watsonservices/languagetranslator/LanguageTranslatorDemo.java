@@ -1,10 +1,5 @@
 package com.acn.acit.watsonservices.languagetranslator;
 
-import com.ibm.watson.developer_cloud.language_translator.v2.LanguageTranslator;
-import com.ibm.watson.developer_cloud.language_translator.v2.model.TranslateOptions;
-import com.ibm.watson.developer_cloud.language_translator.v2.model.TranslationResult;
-import com.ibm.watson.developer_cloud.language_translator.v2.util.Language;
-
 public class LanguageTranslatorDemo {
 
 	/*	
@@ -16,7 +11,7 @@ public class LanguageTranslatorDemo {
 	 * On API Reference: Click on Methods > Translate
 	 * Copy and paste the code inside public static void main(String[] args){}
 	 * Import necessary libraries
-	 * Copy and change the version, username, password based on your discovery service credentials.
+	 * Copy and change the version, username, password based on your language translator service credentials.
 	 * To run using in eclipse: Right click on the project in eclipse > Run As > Java Application
 	 * To run using command prompt: Go to the project directory and type the command > 'mvn exec:java'
 	 * To rebuild type 'mvn package' or 'mvn verify' before executing 'mvn exec:java' command
